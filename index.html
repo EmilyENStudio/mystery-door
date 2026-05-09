@@ -2379,8 +2379,8 @@ but a fire to be kindled.</p>
               <span id="todayClassesTitle">今日课程</span>
             </div>
             <div class="week-switch">
-              <button class="week-btn active" id="thisWeekBtn" onclick="switchWeek('this')">本周</button>
-              <button class="week-btn" id="nextWeekBtn" onclick="switchWeek('next')">下周</button>
+              <button class="week-btn active" id="thisWeekBtn" onclick="switchWeek('this')">上月</button>
+              <button class="week-btn" id="nextWeekBtn" onclick="switchWeek('next')">下月</button>
             </div>
           </div>
           <div class="today-classes-list" id="todayClassesList">
@@ -2828,7 +2828,7 @@ but a fire to be kindled.</p>
       }
       
       const dates = [];
-      for (let i = 0; i < 7; i++) {
+      for (let i = 0; i < 28; i++) {
         const date = new Date(monday);
         date.setDate(monday.getDate() + i);
         dates.push({
