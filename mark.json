@@ -2,7 +2,7 @@
   "courseName": "Power Up 1",
   "name": "Mark Wu",
   "totalHours": 20,
-  "usedHours": 1,
+  "usedHours": 2,
   "schedule": [
     {
       "dayOfWeek": 6,
@@ -28,7 +28,12 @@
       "firstLessonDate": null
     }
   ],
-  "monthlyStats": [],
+  "monthlyStats": [
+    {
+      "month": "2026-05",
+      "hours": 2
+    }
+  ],
   "records": [
     {
       "date": "2026-05-02",
@@ -49,6 +54,12 @@
         "images/homework/2025-05-02-homework-1.png",
         "images/homework/2025-05-02-homework-2.jpg"
       ]
+    },
+    {
+      "date": "2026-05-10",
+      "images": [],
+      "keyKnowledge": "test",
+      "homework": "test"
     }
   ]
 }
