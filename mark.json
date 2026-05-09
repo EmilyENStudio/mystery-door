@@ -2,7 +2,7 @@
   "courseName": "Power Up 1",
   "name": "Mark Wu",
   "totalHours": 20,
-  "usedHours": 2,
+  "usedHours": 1,
   "schedule": [
     {
       "dayOfWeek": 6,
@@ -28,12 +28,7 @@
       "firstLessonDate": null
     }
   ],
-  "monthlyStats": [
-    {
-      "month": "2026-05",
-      "hours": 2
-    }
-  ],
+  "monthlyStats": [],
   "records": [
     {
       "date": "2026-05-02",
@@ -54,11 +49,6 @@
         "images/homework/2025-05-02-homework-1.png",
         "images/homework/2025-05-02-homework-2.jpg"
       ]
-    },
-    {
-      "date": "2026-05-10",
-      "keyKnowledge": "词汇（食材8个）\npasta意面, meat肉, onions洋葱, potatoes土豆, rice米饭, cheese奶酪, carrots胡萝卜, tomatoes番茄\n\n烹饪动词\nchop切, fry炒, boil煮, mix搅拌（输入理解为主）\n\n文学词汇\npicnic野餐, scarecrow稻草人, crumbs面包屑, share分享\n\n句型\nFirst, chop the ___. Then, fry the ___. It's good to share ___ with friends",
-      "homework": "语法总复习\n1. chop/fry/boil/mix\n2. I like / I don't like + Can I have some..., please? + Would you like some...?\n\n🏠 在家游戏\n8. 厨房小助手：做饭时让孩子认食材，用英语说出名字。家长说\"chop/fry/boil/mix\"，孩子做动作\n9. 做dish：和孩子一起做一个dish，边做边用英语说：First, I put ___. Then, I add ___.（optional）\n10. 野餐计划：孩子画出理想的野餐食物清单，用\"I like ___\"和\"I don't like ___\"标注，尝试用\"Can I have some ___?\""
     }
   ]
 }
