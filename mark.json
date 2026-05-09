@@ -18,6 +18,11 @@
       "requestTime": "2026-05-01T07:13:40.930Z",
       "status": "cancelled",
       "courseName": "Power Up 1"
+    },
+    {
+      "date": "2026-05-09",
+      "reason": "调课到周日",
+      "status": "approved"
     }
   ],
   "payments": [
