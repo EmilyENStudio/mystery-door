@@ -684,6 +684,79 @@
             font-weight: 700;
         }
 
+        /* Phone Contact */
+        .phone-contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 24px;
+            margin-bottom: 48px;
+            padding: 16px 24px;
+            background: rgba(0, 113, 227, 0.06);
+            border-radius: 16px;
+            border: 1px solid rgba(0, 113, 227, 0.1);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .phone-contact:hover {
+            background: rgba(0, 113, 227, 0.1);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 113, 227, 0.15);
+        }
+
+        .phone-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #0071E3 0%, #0077ED 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        .phone-content {
+            text-align: left;
+        }
+
+        .phone-label {
+            font-size: 12px;
+            color: var(--color-text-tertiary);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 2px;
+        }
+
+        .phone-number {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--color-accent);
+            letter-spacing: 0.5px;
+        }
+
+        .phone-hint {
+            font-size: 11px;
+            color: var(--color-text-tertiary);
+            margin-left: 4px;
+        }
+
+        @media (max-width: 768px) {
+            .phone-contact {
+                padding: 14px 16px;
+                margin-top: 20px;
+                margin-bottom: 36px;
+            }
+            
+            .phone-number {
+                font-size: 18px;
+            }
+        }
+
         /* Footer */
         .footer {
             padding: 60px 40px;
@@ -1339,6 +1412,17 @@
                     </svg>
                 </a>
             </div>
+            
+            <a href="tel:13918685610" class="phone-contact">
+                <div class="phone-icon">📞</div>
+                <div class="phone-content">
+                    <div class="phone-label">直接联系 Emily 老师</div>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <span class="phone-number">139-1868-5610</span>
+                        <span class="phone-hint">点击直接拨打</span>
+                    </div>
+                </div>
+            </a>
             
             <div class="cta-features">
                 <span class="cta-feature">免费试听</span>
