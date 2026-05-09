@@ -2840,16 +2840,18 @@ but a fire to be kindled.</p>
       return dates;
     }
 
-    function getClassesForDate(schedule, dateStr, dayOfWeek) {
-      if (!schedule) return [];
-      
-      return schedule.filter(s => {
+    function getClassesForDate(studentData, dateStr, dayOfWeek) {
+      const schedule = studentData.schedule || [];
+      const oneTimeClasses = studentData.oneTimeClasses || [];
+      const regularClasses = schedule.filter(s => {
         const targetDay = s.dayOfWeek === 7 ? 0 : s.dayOfWeek;
         return targetDay === dayOfWeek;
       }).map(s => ({
         ...s,
         date: dateStr
       }));
+      const tempClasses = oneTimeClasses.filter(c => c.date === dateStr);
+      return [...regularClasses, ...tempClasses];
     }
 
     function renderTodayClasses() {
@@ -2867,7 +2869,7 @@ but a fire to be kindled.</p>
           const data = allStudentData[student.id];
           if (!data || !data.schedule) return;
           
-          const classes = getClassesForDate(data.schedule, day.date, day.dayOfWeek);
+          const classes = getClassesForDate(data, day.date, day.dayOfWeek);
           classes.forEach(cls => {
             const leaveStatus = getLeaveStatus(data, day.date);
             dayClasses.push({

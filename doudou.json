@@ -130,5 +130,13 @@
       ],
       "homeworkImages": []
     }
+  ],
+  "oneTimeClasses": [
+    {
+      "date": "2026-05-10",
+      "startTime": "09:30",
+      "duration": 90,
+      "courseName": "Power Up 1"
+    }
   ]
 }
