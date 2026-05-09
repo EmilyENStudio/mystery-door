@@ -2,7 +2,7 @@
   "courseName": "Power Up 1",
   "name": "兜兜",
   "totalHours": 20,
-  "usedHours": 3,
+  "usedHours": 5,
   "schedule": [
     {
       "dayOfWeek": 6,
@@ -23,6 +23,10 @@
     {
       "month": "2026-04",
       "hours": 3
+    },
+    {
+      "month": "2026-05",
+      "hours": 2
     }
   ],
   "records": [
